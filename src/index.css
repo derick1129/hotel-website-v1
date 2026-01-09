@@ -1,13 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --font-family-serif: 'Playfair Display', serif;
-
-  --color-gold-400: #D4AF37;
-  --color-gold-500: #B8860B;
-
-  --animate-kenburns: kenburns 30s infinite alternate;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @keyframes kenburns {
   0% { transform: scale(1) translate(0, 0); }
