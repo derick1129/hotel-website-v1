@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       {/* Background Image with slight scale animation */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&h=1080"
+          src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80"
           alt="Luxury Hotel Room"
           className="w-full h-full object-cover animate-[kenburns_20s_infinite_alternate]"
           style={{ animationDuration: '30s' }}

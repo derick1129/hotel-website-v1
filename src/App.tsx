@@ -36,26 +36,26 @@ function App() {
              <p className="text-stone-500 italic font-serif text-lg">Sanctuaries of style and serenity</p>
            </div>
           
-          <Card 
+          <Card
             title="Seasons Grand"
             subtitle="The Crown Jewel"
             description="Located in the heart of the metropolis, Seasons Grand offers an urban oasis of unmatched grandeur. Featuring panoramic skyline views, a world-class spa, and architectural excellence that stands as a testament to modern luxury."
-            image="https://picsum.photos/id/122/800/600"
+            image="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80"
           />
 
-          <Card 
+          <Card
             title="Seasons Beach Resort"
             subtitle="Coastal Paradise"
             description="Wake up to the sound of waves and golden sunrises. Our exclusive beach resort blends tropical tranquility with refined comfort, offering private villas, pristine white sands, and endless ocean horizons."
-            image="https://picsum.photos/id/214/800/600"
+            image="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80"
             reverse={true}
           />
 
-          <Card 
+          <Card
             title="Seasons Mountain Retreat"
             subtitle="Alpine Serenity"
             description="Nestled among towering peaks, this retreat is a haven for those seeking silence and majestic nature. Enjoy ski-in access, roaring fireplaces, and warm thermal pools under the starry night sky."
-            image="https://picsum.photos/id/1036/800/600"
+            image="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80"
           />
         </div>
       </section>
@@ -69,23 +69,23 @@ function App() {
            </div>
 
            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <CompactCard 
+                <CompactCard
                     title="Seasons Fine Dine"
                     subtitle="Michelin Star Experience"
                     description="An avant-garde gastronomic journey featuring a tasting menu that evolves with the seasons."
-                    image="https://picsum.photos/id/429/600/800"
+                    image="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80"
                 />
-                <CompactCard 
+                <CompactCard
                     title="Seasons Café"
                     subtitle="Artisanal & Cozy"
                     description="The perfect spot for artisanal coffee, delicate pastries, and light gourmet lunches in a relaxed setting."
-                    image="https://picsum.photos/id/431/600/800"
+                    image="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80"
                 />
-                <CompactCard 
+                <CompactCard
                     title="Seasons Rooftop Bar"
                     subtitle="Sky High Cocktails"
                     description="Expert mixology meets breathtaking views. The ultimate destination for sunset drinks and evening elegance."
-                    image="https://picsum.photos/id/436/600/800"
+                    image="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800&q=80"
                 />
            </div>
         </div>
@@ -94,7 +94,7 @@ function App() {
       {/* Quote / Break Section */}
       <section className="py-32 px-6 relative bg-stone-900 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-             <img src="https://picsum.photos/id/238/1920/600" className="w-full h-full object-cover grayscale" alt="Texture" />
+             <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=600&q=80" className="w-full h-full object-cover grayscale" alt="Texture" />
         </div>
         <div className="relative z-10 max-w-3xl text-center">
             <p className="text-3xl md:text-5xl font-serif text-white italic leading-tight mb-8">
