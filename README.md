@@ -71,3 +71,4 @@ export default defineConfig([
   },
 ])
 ```
+# Hotel Website v1.1
