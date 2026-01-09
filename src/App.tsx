@@ -1,8 +1,8 @@
-import React from 'react';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import { Card, CompactCard } from './components/Card';
-import { Button } from './components/Button';
+
 
 function App() {
   return (
