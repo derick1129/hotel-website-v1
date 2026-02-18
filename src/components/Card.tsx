@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 interface CardProps {
   title: string;
@@ -7,9 +7,10 @@ interface CardProps {
   image: string;
   subtitle: string;
   reverse?: boolean;
+  linkTo?: string;
 }
 
-export const Card: React.FC<CardProps> = ({ title, description, image, subtitle, reverse = false }) => {
+export const Card: React.FC<CardProps> = ({ title, description, image, subtitle, reverse = false, linkTo = '/hotels' }) => {
   return (
     <div className={`flex flex-col ${reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-24 mb-24 lg:mb-32 group`}>
       {/* Image Side */}
@@ -33,7 +34,12 @@ export const Card: React.FC<CardProps> = ({ title, description, image, subtitle,
         <p className="text-stone-600 leading-relaxed mb-8 font-light text-lg">
           {description}
         </p>
-        <Button variant="outline">Discover More</Button>
+        <Link
+          to={linkTo}
+          className="inline-block px-8 py-3 uppercase tracking-widest text-xs font-semibold transition-all duration-300 ease-out border border-stone-900 bg-transparent text-stone-900 hover:bg-stone-900 hover:text-white"
+        >
+          Discover More
+        </Link>
       </div>
     </div>
   );

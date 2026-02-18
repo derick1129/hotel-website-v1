@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   const [loaded, setLoaded] = useState(false);
@@ -37,12 +37,18 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-          <Button variant="text" className="w-full sm:w-auto min-w-[200px]">
+          <Link
+            to="/hotels"
+            className="px-8 py-3 uppercase tracking-widest text-xs font-semibold transition-all duration-300 ease-out border border-white bg-transparent text-white hover:bg-white hover:text-stone-900 w-full sm:w-auto min-w-[200px] text-center"
+          >
             Explore Hotels
-          </Button>
-          <Button variant="primary" className="w-full sm:w-auto min-w-[200px] border-transparent  text-stone-900 hover:bg-gold-500 hover:text-white">
+          </Link>
+          <Link
+            to="/hotels"
+            className="px-8 py-3 uppercase tracking-widest text-xs font-semibold transition-all duration-300 ease-out border border-transparent bg-stone-900 text-white hover:bg-gold-500 w-full sm:w-auto min-w-[200px] text-center"
+          >
             Book Your Stay
-          </Button>
+          </Link>
         </div>
       </div>
 

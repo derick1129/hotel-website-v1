@@ -1,8 +1,9 @@
 export interface NavItem {
-    label: string;
-    href?: string;
-    children?: NavItem[];
-  }
+  label: string;
+  href?: string;
+  to?: string;
+  children?: NavItem[];
+}
   
   export interface FeatureItem {
     id: string;

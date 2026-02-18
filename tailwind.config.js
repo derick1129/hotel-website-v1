@@ -13,6 +13,8 @@ export default {
         gold: {
           400: '#D4AF37',
           500: '#B8860B',
+          600: '#996F09',
+          700: '#7A5807',
         },
       },
       animation: {
